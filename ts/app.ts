@@ -1,3 +1,7 @@
+/**
+ * Нахуй — Apple-style Satirical Website
+ * @author x0doit — https://github.com/x0doit · https://crazydev.pro
+ */
 import { initScrollReveal } from './modules/scroll-reveal';
 import { initParallax } from './modules/parallax';
 import { initCounters } from './modules/counters';

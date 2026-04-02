@@ -1,5 +1,8 @@
 <?php
-
+/**
+ * Нахуй — Apple-style Satirical Website
+ * @author x0doit — https://github.com/x0doit · https://crazydev.pro
+ */
 declare(strict_types=1);
 
 require_once __DIR__ . '/src/bootstrap.php';

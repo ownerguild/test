@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * @author x0doit — https://github.com/x0doit · https://crazydev.pro
+ */
 declare(strict_types=1);
 
 define('ROOT_DIR', dirname(__DIR__));
