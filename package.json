@@ -1,0 +1,13 @@
+{
+  "name": "inahuy",
+  "private": true,
+  "scripts": {
+    "build": "esbuild ts/app.ts --bundle --minify --sourcemap --target=es2020 --outfile=js/app.js",
+    "watch": "esbuild ts/app.ts --bundle --sourcemap --target=es2020 --outfile=js/app.js --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "typescript": "^5.8.0"
+  }
+}

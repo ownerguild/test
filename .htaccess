@@ -1,0 +1,18 @@
+RewriteEngine On
+
+# Deny access to src/ directory
+RewriteRule ^src/ - [F,L]
+
+# Deny access to ts/ directory
+RewriteRule ^ts/ - [F,L]
+
+# Deny access to node_modules/
+RewriteRule ^node_modules/ - [F,L]
+
+# Deny access to config files
+RewriteRule ^(package\.json|tsconfig\.json|package-lock\.json)$ - [F,L]
+
+# Route all non-file/non-directory requests to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L]
